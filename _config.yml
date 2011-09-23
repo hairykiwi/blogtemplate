@@ -1,1 +1,4 @@
 exclude:    cv
+permalink:  /posts/:title
+auto:       true
+

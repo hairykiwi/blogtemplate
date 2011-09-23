@@ -1,29 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>davewasthere/davebeer @ GitHub</title>
-</head>
-<body>
-  <div id="container">
+---
+layout: layout
+title: "Dave Beer"
+---
 
-<p>Wishing I could add files using Github's web-based editor</p>
-<p>But Cloud9 is fantastic. What an awesome solution.</p>
+<div class="content">
 
+<div class="related">
+  <ul>
+  {% for post in site.posts %}
+    <li>
+      <span>{{ post.date | date: "%d %B %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
   </div>
-  
-<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-505897-5']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>  
-  
-</body>
-</html>
+</div>

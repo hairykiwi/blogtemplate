@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: http://davebeer.com/sitemap.xml
