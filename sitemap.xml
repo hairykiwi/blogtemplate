@@ -9,7 +9,7 @@ layout: nil
 </url>
 {% for post in site.posts %}
  <url>
-    <loc>http://davebeer.com{{ post.url }}</loc>
+    <loc>http://davebeer.com{{ post.url }}/</loc>
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
  </url>
  {% endfor %}
