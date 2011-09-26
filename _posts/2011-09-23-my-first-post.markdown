@@ -10,3 +10,6 @@ The beauty of hosting a blog this way, is the pages are completely static. So de
 And these days, speed counts. Especially if your blog gets slashdotted/reddited/digged (well, maybe not digg any more) or HackerNews'd. The static site has a good chance of surviving that load. Admittedly, a well cached Wordpress site should do as well, but I've lost count of the number of unavailable Wordpress blogs when the going gets tough.
 
 And that's not to say your site has to be completely static either. You've always got things like Disqus/Facebook or GetSatisfaction to dynamically include commenting on your site without adding extra load to your server.
+
+That said, I've not found it completely straight-forward. I wanted to be able to edit my site from any browser, so needed some sort of front-end to GitHub. In the end I found [Cloud9](http://c9.io) which looked the business. GitHub does offer a code editor now, but you can't create files, which is a bit of a pain.
+
