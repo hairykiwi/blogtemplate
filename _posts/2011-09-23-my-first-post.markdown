@@ -13,3 +13,7 @@ And that's not to say your site has to be completely static either. You've alway
 
 That said, I've not found it completely straight-forward. I wanted to be able to edit my site from any browser, so needed some sort of front-end to GitHub. In the end I found [Cloud9](http://c9.io) which looked the business. GitHub does offer a code editor now, but you can't create files, which is a bit of a pain.
 
+So the process was; Create a github account then create a repository for your blog. Create a Cloud9 account. Sign into c9 using your github account. Clone your repository. Start editing.
+That was all fairly easy. But I'm either struggling with Git (having come from an SVN background) or there's something a little odd with Cloud9. I'm editing from a few different machines and I thought all of the repository is hosted with Cloud9. But weirdly, when I've switched machines, I've ended up having much older versions of files when I open them.
+
+Maybe it's all a lot simpler when I'm a little more solid on Git commands. For now I'm just hacking away with Add, Commit, Diff and Push. Mostly I want to get to a point that I'm happy with what Jekyll has to offer and figure out the rest of the toolchain as I go.
