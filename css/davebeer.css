@@ -69,10 +69,9 @@ td { vertical-align: top; }
 
 body { font-family: Georgia, Serif; background-color: #fff; font-size: 16px;}
 #container {max-width:800px; margin: 0 auto;text-align:left;}
-.postdate {float:right; color: #999;}
-.related ul {list-style-type: none;}
+.postdate {color: #999; border-top: 1px solid #eee; margin-top: -3em;}
+.related ul {list-style-type: none; margin: 0;}
 .related ul li span {float:right;}
-
 
 
 
