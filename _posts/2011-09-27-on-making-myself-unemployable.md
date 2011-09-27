@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: post
 title: On making myself unemployable
 ---
 
