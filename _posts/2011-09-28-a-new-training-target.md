@@ -1,6 +1,6 @@
 ---
 layout: post
-title: whatever
+title: I've got a new training target
 ---
 ## gidday
 
