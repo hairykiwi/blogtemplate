@@ -8,7 +8,7 @@ I don't know when the world economies will wake up to the fact that the US Dolla
 
 Thing is, fortunes have been lost (and made) betting against the strength of the US Dollar. But it does mean that equities valued in US Dollars could be worthwhile having in your portfolio. Gold and silver, two metals that already seem to have a ridiculously high value, could still have a lot higher to go? At a guess I think we could see USD$2000/oz by the end of 2012.
 
-If things seem obvious for the US Economy, what then for UK and Europe. Personally I see NZ and Australia being a safe haven. More Australia though as mining seems a little more valuable than agricultural exports.
+If things seem obvious for the US Economy, what then for UK and Europe? Personally I see NZ and Australia being a safe haven. More Australia though as mining seems a little more valuable than agricultural exports.
 
 I don't fully understand why we couldn't have been more like Iceland, refusing to bail out these financial institutions. It's not just because politicians wanted to keep their jobs, surely? The big question for Europe seems to be should Greece default, possibly exiting the Euro-zone, then have their own currency that they can allow to depreciate? That would be good for Greeks, but bad for the bankers who lent the Greek government more money than it could repay.
 
