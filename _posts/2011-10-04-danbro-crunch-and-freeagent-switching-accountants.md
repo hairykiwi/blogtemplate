@@ -2,6 +2,7 @@
 layout: post
 title: Danbro, Crunch and Freeagent: Switching Accountants
 ---
+
 I've been trying to improve my accounting situation. When I started my company back in 2008, I originally went with Danbro accounting. They seemed pretty good, but I did find them quite expensive for the service I was getting. That said, I just needed someone quick when I first started. And every hour I spent fussing over accounts was a huge opportunity cost.
 
 Now that I've throttled operations back a lot, the time-saving is not so crucial. I'd started losing love for Danbro as their communications were not terribly clear. Dealing with them just felt difficult and this year I found myself chasing them for things they used to do automatically.
