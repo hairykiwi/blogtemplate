@@ -17,23 +17,46 @@
 
         $(function () {
 
-            //$.getJSON('http://hn.gethifi.com/api/page?callback=HNCallback&format=jsonp', function (data) {
-            $.getJSON('http://api.ihackernews.com/page?format=jsonp&callback=?', function (data) {
-            //$.getJSON('page.txt', function (data) {
+            var items = [];
 
-                $('#story-container').html($('#story-template').tmpl(data));
+            for (var i = 1; i <= 10; i++) {
 
-                var index = 1;
-                $('.story-index').each(function () {
-                    $(this).text(index);
+                var story = new Object();
 
-                    var storyUrl = $(this).parent().parent().find('a.story-url').attr('href');
-                    $(this).parent().parent().find('span.comhead').text(' (' + getHostName(storyUrl) + ') ');
+                story.rank = i;
+                story.id = i;
+                story.title = 'Hello';
+                story.url = '';
+                story.points = 0;
+                story.postedBy = '';
+                story.postedAgo = '';
 
-                    index++;
-                });
+                items[i] = story;
+            }
 
-            });
+            var data = new Object();
+            data.items = Array(2);
+
+            $('#story-container').html($('#story-template').tmpl(items));
+
+
+            //            //$.getJSON('http://hn.gethifi.com/api/page?callback=HNCallback&format=jsonp', function (data) {
+            //            $.getJSON('http://api.ihackernews.com/page?format=jsonp&callback=?', function (data) {
+            //            //$.getJSON('page.txt', function (data) {
+
+            //                $('#story-container').html($('#story-template').tmpl(data));
+
+            //                var index = 1;
+            //                $('.story-index').each(function () {
+            //                    $(this).text(index);
+
+            //                    var storyUrl = $(this).parent().parent().find('a.story-url').attr('href');
+            //                    $(this).parent().parent().find('span.comhead').text(' (' + getHostName(storyUrl) + ') ');
+
+            //                    index++;
+            //                });
+
+            //            });
 
         });
 
@@ -54,8 +77,8 @@
     <script id="story-template" type="text/html">
 
     	{{each items}}
-        <tr><td align="right" valign="top" class="title"><span class="story-index">1</span>.</td><td><center><a id="up_${id}" onclick="return vote(this)" href="vote?for=${id}&amp;dir=up"><img src="http://ycombinator.com/images/grayarrow.gif" border="0" vspace="3" hspace="2"></a><span id="down_${id}"></span></center></td><td class="title"><a class="story-url" href="${url}" rel="nofollow">${title}</a><span class="comhead"> () </span></td></tr>
-        <tr><td colspan="2"></td><td class="subtext"><span id="score_${id}">${points} point{{if points != 1}}s{{/if}}</span> by <a href="user?id=${postedBy}">${postedBy}</a> ${postedAgo}  | <a href="item?id=${id}">discuss</a></td></tr>
+        <tr><td align="right" valign="top" class="title"><span class="story-index">${rank}</span>.</td><td><center><a id="up_${id}" onclick="return vote(this)" href="http://news.ycombinator.com/vote?for=${id}&amp;dir=up"><img src="http://ycombinator.com/images/grayarrow.gif" border="0" vspace="3" hspace="2"></a><span id="down_${id}"></span></center></td><td class="title"><a class="story-url" href="${url}" rel="nofollow">${title}</a><span class="comhead"> () </span></td></tr>
+        <tr><td colspan="2"></td><td class="subtext"><span id="score_${id}">${points} point{{if points != 1}}s{{/if}}</span> by <a href="http://news.ycombinator.com/user?id=${postedBy}">${postedBy}</a> ${postedAgo}  | <a href="http://news.ycombinator.com/item?id=${id}">discuss</a></td></tr>
         <tr style="height:5px"></tr>
 		{{/each}}
 		
@@ -70,11 +93,11 @@
     <center>
         <table border="0" cellpadding="0" cellspacing="0" width="85%" bgcolor="#f6f6ef">
             <tbody>
-                <tr><td bgcolor="#ff6600"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="padding:2px"><tbody><tr><td style="width:18px;padding-right:4px"><a href="http://ycombinator.com"><img src="http://ycombinator.com/images/y18.gif" width="18" height="18" style="border:1px #ffffff solid;"></a></td><td style="line-height:12pt; height:10px;"><span class="pagetop"><b><a href="news">Hacker News</a></b><img src="http://ycombinator.com/images/s.gif" height="1" width="10"><a href="newest">new</a> | <a href="threads?id=davewasthere">threads</a> | <a href="newcomments">comments</a> | <a href="ask">ask</a> | <a href="jobs">jobs</a> | <a href="submit">submit</a></span></td><td style="text-align:right;padding-right:4px;"><span class="pagetop"><a href="user?id=davewasthere">davewasthere</a>&nbsp;(18)&nbsp;|&nbsp;<a href="/r?fnid=VhR0ADSoyC">logout</a></span></td></tr></tbody></table></td></tr>
+                <tr><td bgcolor="#ff6600"><table border="0" cellpadding="0" cellspacing="0" width="100%" style="padding:2px"><tbody><tr><td style="width:18px;padding-right:4px"><a href="http://ycombinator.com"><img src="http://ycombinator.com/images/y18.gif" width="18" height="18" style="border:1px #ffffff solid;"></a></td><td style="line-height:12pt; height:10px;"><span class="pagetop"><b><a href="http://news.ycombinator.com/news">Hacker News</a></b><img src="http://ycombinator.com/images/s.gif" height="1" width="10"><a href="http://news.ycombinator.com/newest">new</a> | <a href="http://news.ycombinator.com/newcomments">comments</a> | <a href="http://news.ycombinator.com/ask">ask</a> | <a href="http://news.ycombinator.com/jobs">jobs</a> | <a href="http://news.ycombinator.com/submit">submit</a></span></td><td style="text-align:right;padding-right:4px;"><span class="pagetop"></span></td></tr></tbody></table></td></tr>
                 <tr style="height:10px"></tr>
                 <tr><td><table border="0" cellpadding="0" cellspacing="0"><tbody id="story-container"></tbody></table></td></tr>
 				<tr><td><img src="http://ycombinator.com/images/s.gif" height="10" width="0"><table width="100%" cellspacing="0" cellpadding="1"><tbody><tr><td bgcolor="#ff6600"></td></tr></tbody></table><br>
-					<center><span class="yclinks"><a href="lists">Lists</a> | <a href="rss">RSS</a> | <a href="http://ycombinator.com/bookmarklet.html">Bookmarklet</a> | <a href="http://ycombinator.com/newsguidelines.html">Guidelines</a> | <a href="http://ycombinator.com/newsfaq.html">FAQ</a> | <a href="http://ycombinator.com/newsnews.html">News News</a> | <a href="item?id=363">Feature Requests</a> | <a href="http://ycombinator.com">Y Combinator</a> | <a href="http://ycombinator.com/apply.html">Apply</a> | <a href="http://ycombinator.com/lib.html">Library</a></span><br><br>
+					<center><span class="yclinks"><a href="http://news.ycombinator.com/lists">Lists</a> | <a href="http://news.ycombinator.com/rss">RSS</a> | <a href="http://ycombinator.com/bookmarklet.html">Bookmarklet</a> | <a href="http://ycombinator.com/newsguidelines.html">Guidelines</a> | <a href="http://ycombinator.com/newsfaq.html">FAQ</a> | <a href="http://ycombinator.com/newsnews.html">News News</a> | <a href="http://news.ycombinator.com/item?id=363">Feature Requests</a> | <a href="http://ycombinator.com">Y Combinator</a> | <a href="http://ycombinator.com/apply.html">Apply</a> | <a href="http://ycombinator.com/lib.html">Library</a></span><br><br>
 					<form method="get" action="http://www.hnsearch.com/search#request/all">Search: <input type="text" name="q" value="" size="17"></form><br>
 					</center></td></tr>
             </tbody>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Danbro, Crunch and Freeagent: Switching Accountants
+title: Danbro, Crunch and Freeagent. Switching Accountants
 ---
 
 I've been trying to improve my accounting situation. When I started my company back in 2008, I originally went with Danbro accounting. They seemed pretty good, but I did find them quite expensive for the service I was getting. That said, I just needed someone quick when I first started. And every hour I spent fussing over accounts was a huge opportunity cost.
