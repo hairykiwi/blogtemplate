@@ -10,6 +10,6 @@ The flickering lights that really stood out, weren't street lights or house ligh
 
 Now everyone having a television isn't surprising, but from the air, it looked as though every house had theirs turned on. It's just scary to think that everyone just turns on their television when they get home from work. Doubtless there are some good shows, but it looked like 90+ percent of New York were anesthetising themselves with the goggle-box.
 
-Maybe I've got a different view of television having grown up some of my childhood without one, and having gotten rid of my television at home. I've definitely got more time for one thing! Having just been on holiday where there were three televisions in our apartment, I found it all to easy to surf the 100 plus channels to see if there was anything interesting on.
+Maybe I've got a different view of television having grown up some of my childhood without one, and having gotten rid of my television at home. I've noticed that I've got more time to do stuff without one! But having just been on holiday where there were three televisions in our apartment, I found it all too easy to surf the 100 plus channels to see if there was anything interesting on.
 
 I can't say I miss it now I'm home again...
