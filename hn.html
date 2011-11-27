@@ -35,9 +35,9 @@
             }
 
             var data = new Object();
-            data.items = Array(2);
+            data.items = items;
 
-            $('#story-container').html($('#story-template').tmpl(items));
+            $('#story-container').html($('#story-template').tmpl(data));
 
 
             //            //$.getJSON('http://hn.gethifi.com/api/page?callback=HNCallback&format=jsonp', function (data) {
