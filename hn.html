@@ -19,55 +19,66 @@
 
             var items = [];
 
-            for (var i = 1; i <= 10; i++) {
+            //            for (var i = 0; i < 10; i++) {
 
-                var story = new Object();
+            //                var story = new Object();
 
-                story.rank = i;
-                story.id = i;
-                story.title = 'Hello';
-                story.url = '';
-                story.points = 0;
-                story.postedBy = '';
-                story.postedAgo = '';
+            //                story.rank = i + 1;
+            //                story.id = i;
+            //                story.title = 'Hello';
+            //                story.url = '';
+            //                story.points = 0;
+            //                story.postedBy = '';
+            //                story.postedAgo = '';
 
-                items[i] = story;
-            }
-
-            var data = new Object();
-            data.items = items;
-
-            $('#story-container').html($('#story-template').tmpl(data));
+            //                items[i] = story;
+            //            }
 
 
-            //            //$.getJSON('http://hn.gethifi.com/api/page?callback=HNCallback&format=jsonp', function (data) {
-            //            $.getJSON('http://api.ihackernews.com/page?format=jsonp&callback=?', function (data) {
-            //            //$.getJSON('page.txt', function (data) {
+            //items = [{ "title": "JQuery Mobile 1.0", "url": "http://jquerymobile.com/blog/2011/11/16/announcing-jquery-mobile-1-0/", "id": 3248243, "commentCount": 7, "points": 34, "postedAgo": "29 minutes ago", "postedBy": "johnbender" }, { "title": "Clojure/core — (second conj)", "url": "http://clojure.com/blog/2011/11/17/second-conj.html", "id": 3248120, "commentCount": 3, "points": 31, "postedAgo": "1 hour ago", "postedBy": "fogus" }, { "title": ".bit non-governmental domain name registrar, for the post-SOPA era", "url": "http://dot-bit.org/Domain_names", "id": 3247373, "commentCount": 40, "points": 156, "postedAgo": "5 hours ago", "postedBy": "krig" }, { "title": "Stanford to host more online classes (CS-101, HCI, NLP and more)", "url": "http://www.cs101-class.org/#", "id": 3246957, "commentCount": 75, "points": 309, "postedAgo": "8 hours ago", "postedBy": "ivoflipse" }, { "title": "JSZip - Create .zip files with Javascript", "url": "http://jszip.stuartk.co.uk/", "id": 3247820, "commentCount": 14, "points": 39, "postedAgo": "2 hours ago", "postedBy": "ChrisArchitect" }, { "title": "RIAA Wants to Shutdown Foreign Social Networking Sites and More", "url": "http://torrentfreak.com/riaa-wants-to-shutter-torrent-sites-and-more-111116/", "id": 3248118, "commentCount": 1, "points": 21, "postedAgo": "1 hour ago", "postedBy": "nextparadigms" }, { "title": "Ask HN: Stop spamming us? (Google Plus)", "url": "/comments/3248101", "id": 3248101, "commentCount": 1, "points": 39, "postedAgo": "1 hour ago", "postedBy": "llambda" }, { "title": "Adobe Donates Flex to Apache", "url": "http://www.pcworld.com/businesscenter/article/244060/adobe_donates_flex_to_apache.html", "id": 3247365, "commentCount": 50, "points": 79, "postedAgo": "5 hours ago", "postedBy": "instakill" }, { "title": "UseTheSource", "url": "http://jobs.usethesource.com/jobs", "id": 3247436, "commentCount": 11, "points": 57, "postedAgo": "4 hours ago", "postedBy": "jgrahamc" }, { "title": "Why I only work with startups", "url": "http://swizec.com/blog/why-i-only-work-with-startups/swizec/2936", "id": 3247659, "commentCount": 23, "points": 39, "postedAgo": "3 hours ago", "postedBy": "Swizec" }, { "title": "The OS Wars: We Have A Winner", "url": "http://sourceforge.net/blog/os-wars/", "id": 3248313, "commentCount": 0, "points": 5, "postedAgo": "13 minutes ago", "postedBy": "webwanderings" }, { "title": "Kibi.js: a client-side web framework in 1,024 bytes", "url": "https://github.com/jed/kibi", "id": 3248246, "commentCount": 0, "points": 6, "postedAgo": "28 minutes ago", "postedBy": "jedschmidt" }, { "title": "Waterproof anything with a spray", "url": "http://designtaxi.com/news/351023/Waterproof-Your-iPhone-Everything-Else-With-This-Spray/", "id": 3247237, "commentCount": 37, "points": 76, "postedAgo": "6 hours ago", "postedBy": "jwdunne" }, { "title": "Vimessa (YC S11) Would Like You To Enjoy Video Messaging", "url": "http://www.fastcompany.com/1795641/startup-vimessa-tries-to-reinvent-messaging-with-video", "id": 3247968, "commentCount": 2, "points": 11, "postedAgo": "1 hour ago", "postedBy": "pclark" }, { "title": "Internet giants place full-page anti-SOPA ad in NYT", "url": "http://boingboing.net/2011/11/16/internet-giants-place-full-pag.html", "id": 3244994, "commentCount": 98, "points": 605, "postedAgo": "20 hours ago", "postedBy": "andrewdumont" }, { "title": "46 Cents in Revenue Per DAU? Vancouver’s A Thinking Ape Has Seen It Before", "url": "http://www.insidemobileapps.com/2011/11/16/a-thinking-ape-interview-kenshi-arasaki/", "id": 3247741, "commentCount": 4, "points": 19, "postedAgo": "2 hours ago", "postedBy": "garbowza" }, { "title": "The Mouse Trap: The dangers of using one lab animal to study every disease", "url": "http://www.slate.com/articles/health_and_science/the_mouse_trap/2011/11/lab_mice_are_they_limiting_our_understanding_of_human_disease_.html", "id": 3247428, "commentCount": 6, "points": 39, "postedAgo": "4 hours ago", "postedBy": "JacobAldridge" }, { "title": "The Brain Acts Fast to Reappraise Angry Faces", "url": "http://www.sciencedaily.com/releases/2011/11/111115180319.htm", "id": 3248167, "commentCount": 0, "points": 6, "postedAgo": "48 minutes ago", "postedBy": "danso" }, { "title": "Helveticards - Minimalist Typography Cards for the Typophile, Gambler ", "url": "http://designtaxi.com/news/351020/Helveticards-Minimalist-Typography-Cards-for-the-Typophile-Gambler/", "id": 3247363, "commentCount": 18, "points": 54, "postedAgo": "5 hours ago", "postedBy": "pstadler" }, { "title": "COMEFROM", "url": "http://en.wikipedia.org/wiki/COMEFROM", "id": 3247715, "commentCount": 14, "points": 23, "postedAgo": "2 hours ago", "postedBy": "llambda" }, { "title": "The Lack of Affordance Problem", "url": "http://blog.jgc.org/2011/11/lack-of-affordance-problem.html", "id": 3247154, "commentCount": 15, "points": 65, "postedAgo": "6 hours ago", "postedBy": "jgrahamc" }, { "title": "Security researcher defeats Windows 8 secure boot", "url": "http://arstechnica.com/business/news/2011/11/security-researcher-defeats-windows-8-secure-boot.ars?comments=1#comments-bar", "id": 3248266, "commentCount": 0, "points": 4, "postedAgo": "25 minutes ago", "postedBy": "robinhouston" }, { "title": "Google: Financial Embargo Of WikiLeaks Shows How To Deal With Piracy", "url": "http://www.forbes.com/sites/andygreenberg/2011/11/16/google-tells-congress-wikileaks-financial-embargo-shows-how-to-deal-with-web-piracy/", "id": 3247417, "commentCount": 16, "points": 29, "postedAgo": "4 hours ago", "postedBy": "jwdunne" }, { "title": "Asynchronous UIs - the future of web user interfaces", "url": "http://alexmaccaw.co.uk/posts/async_ui", "id": 3244229, "commentCount": 141, "points": 452, "postedAgo": "23 hours ago", "postedBy": "maccman" }, { "title": "Apple iPhone Safari Crasher (iPhone 4 & 4S, iOS 5.0.1)", "url": "http://pub.fox21.at/apple/iphone.safari.crasher.php", "id": 3247757, "commentCount": 16, "points": 10, "postedAgo": "2 hours ago", "postedBy": "thefox" }, { "title": "Mozilla urges its users to raise their voice against SOPA", "url": "http://www.mozilla.org/sopa/", "id": 3242700, "commentCount": 41, "points": 663, "postedAgo": "1 day ago", "postedBy": "Indyan" }, { "title": "SOPA Hearing is Streaming Live", "url": "http://judiciary.house.gov/hearings/hear_11162011.html", "id": 3243482, "commentCount": 247, "points": 474, "postedAgo": "1 day ago", "postedBy": "bproper" }, { "title": "Scalatra a tiny Sinatra-like web framework for Scala", "url": "http://www.scalatra.org/", "id": 3247017, "commentCount": 8, "points": 41, "postedAgo": "7 hours ago", "postedBy": "abhishektwr" }, { "title": "Why is Funding Perl Core Development So Difficult?", "url": "http://www.modernperlbooks.com/mt/2011/11/why-is-funding-perl-core-development-so-difficult.html", "id": 3247925, "commentCount": 30, "points": 20, "postedAgo": "1 hour ago", "postedBy": "hendi_" }, { "title": "The relationship between Readability and Instapaper", "url": "http://www.marco.org/2011/11/16/readability", "id": 3246081, "commentCount": 42, "points": 134, "postedAgo": "15 hours ago", "postedBy": "duck"}];
 
-            //                $('#story-container').html($('#story-template').tmpl(data));
+            //$('#story-container').html($('#story-template').tmpl(items));
 
-            //                var index = 1;
-            //                $('.story-index').each(function () {
-            //                    $(this).text(index);
 
-            //                    var storyUrl = $(this).parent().parent().find('a.story-url').attr('href');
-            //                    $(this).parent().parent().find('span.comhead').text(' (' + getHostName(storyUrl) + ') ');
+            //$.getJSON('http://hn.gethifi.com/api/page?callback=HNCallback&format=jsonp', function (data) {
+            $.getJSON('http://api.ihackernews.com/page?format=jsonp&callback=?', function (data) {
+                //            //$.getJSON('page.txt', function (data) {
 
-            //                    index++;
-            //                });
+                $('#story-container').html($('#story-template').tmpl(data.items));
 
-            //            });
+                var index = 1;
+                $('.story-index').each(function () {
+                    $(this).text(index);
+
+                    var storyUrl = $(this).parent().parent().find('a.story-url').attr('href');
+                    $(this).parent().parent().find('span.comhead').text(getHostName(storyUrl));
+
+                    index++;
+                });
+
+            });
 
         });
 
         function getHostName(url) {
+
             var hostname = url.toLowerCase().replace("http://", "").replace("https://", "");
 
-            if (hostname.indexOf("www") == 0)
-                hostname = hostname.slice(4, hostname.length);
+            if (hostname.indexOf("/comments/") == 0) {
+                //is a local HN link
 
-            if (hostname.indexOf("/") > -1)
-                hostname = hostname.slice(0, hostname.indexOf("/"));
+                hostname = '';
+            }
+            else {
+
+                if (hostname.indexOf("www") == 0)
+                    hostname = hostname.slice(4, hostname.length);
+
+                if (hostname.indexOf("/") > -1)
+                    hostname = hostname.slice(0, hostname.indexOf("/"));
+
+                hostname = ' (' + hostname + ') ';
+            }
 
             return hostname;
         }
@@ -76,14 +87,9 @@
 
     <script id="story-template" type="text/html">
 
-    	{{each items}}
         <tr><td align="right" valign="top" class="title"><span class="story-index">${rank}</span>.</td><td><center><a id="up_${id}" onclick="return vote(this)" href="http://news.ycombinator.com/vote?for=${id}&amp;dir=up"><img src="http://ycombinator.com/images/grayarrow.gif" border="0" vspace="3" hspace="2"></a><span id="down_${id}"></span></center></td><td class="title"><a class="story-url" href="${url}" rel="nofollow">${title}</a><span class="comhead"> () </span></td></tr>
         <tr><td colspan="2"></td><td class="subtext"><span id="score_${id}">${points} point{{if points != 1}}s{{/if}}</span> by <a href="http://news.ycombinator.com/user?id=${postedBy}">${postedBy}</a> ${postedAgo}  | <a href="http://news.ycombinator.com/item?id=${id}">discuss</a></td></tr>
         <tr style="height:5px"></tr>
-		{{/each}}
-		
-		<tr style="height:10px"></tr>
-		<tr><td colspan="2"></td><td class="title"><a href="/x?fnid=AdF9H0iCZ5" rel="nofollow">More</a></td></tr>
 
     </script>
 
