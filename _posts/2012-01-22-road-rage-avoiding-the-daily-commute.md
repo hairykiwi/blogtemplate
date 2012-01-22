@@ -12,6 +12,6 @@ Catching the ferry back was just as painless. This time, I sat outside, enjoying
 
 So, I was sold. If I find myself living in Auckland anytime in the near future (and working in the city) then I'll probably try and base myself in a location that's a short ferry ride away. I'm sure it won't be quite as pleasant in winter, but still beats driving a car.
 
-I also notice a massive difference in driving styles between Auckland and Wellington. Wellingtonian's are, for the most part, quite courteous. You've got a pretty good chance of being let into a queue, or being waiting for if you're turning off a main road onto a side street. It's something I'm very used to in the UK, but Aucklanders are very much out for themselves on the road. Truly awful drivers! And I've got to admit, it angers me when I see blatant stupidity on the road. Hence why I don't think I should ever try and commute. It'd just stress me out.
+I also notice a massive difference in driving styles between Auckland and Wellington. Wellingtonian's are, for the most part, quite courteous. You've got a pretty good chance of being let into a queue, or being waited for if you're turning off a main road onto a side street. It's something I'm very used to in the UK, but Aucklanders are very much out for themselves on the road. Truly awful drivers! And I've got to admit, it angers me when I see blatant stupidity on the road. Hence why I don't think I should ever try and commute. It'd just stress me out.
 
 That said, could just avoid work altogether?
