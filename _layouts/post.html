@@ -14,6 +14,21 @@ layout: layout
     </div>
 </div>
 
+
+<div class="nextprev">
+
+        {% if page.previous.url %} 
+                <a href="{{page.previous.url}}" title="Previous Post: 
+{{page.previous.title}}">&laquo; {{page.previous.title}}</a> 
+        {% endif %} 
+
+        {% if page.next.url %} 
+                <a href="{{page.next.url}}" title="next Post: 
+{{page.next.title}}">{{page.next.title}} &raquo; </a> 
+        {% endif %} 
+
+</div>
+
 <!--
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
