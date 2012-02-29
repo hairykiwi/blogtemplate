@@ -20,4 +20,4 @@ I basically had to walk down a tunnel to what appeared to be the only rail map o
 
 Even heading south wasn't completely simple. Turns out the next train was a limited stops one, which got me as far as Wolli Creek, so I had one more change to make, but that didn't seem too difficult. And that line/train was lovely and smooth, so no complaints there!
 
-I don't want to sound like I'm moaning. Sydney CityRail has done a few things incredibly well. Huge trains, a/c was lovely, two-way adjustable seats are a nice touch. But they could improve the signage significantly. If they do that, then they'll 
+I don't want to sound like I'm moaning. Sydney CityRail has done a few things incredibly well. Huge trains, a/c was lovely, two-way adjustable seats are a nice touch. But they could improve the signage significantly. If they do that, then they'll be mising it up with the big boys.
