@@ -76,6 +76,7 @@ header {float: left; display: none;}
 blockquote {font-style: italic; color: #666;}
 .nextprev .next {float: right; text-align: right;}
 .nextprev .prev {float: left;}
+.clearall {clear: both;}
 
 
 
