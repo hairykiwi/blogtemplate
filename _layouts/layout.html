@@ -11,8 +11,17 @@
   
   <link rel="stylesheet" href="/css/davebeer.css">
 
+{% if page.previous.url %} 
+  <link rel="prev" href="{{page.previous.url}}">
+{% endif %} 
+{% if page.next.url %} 
+  <link rel="next" href="{{page.next.url}}">
+{% endif %} 
+
   <link rel="me" type="text/html" href="http://profiles.google.com/davebeer?rel=author">
-  <link rel="me" type="text/html" href="http://feeds.feedburner.com/DaveBeer">   <link rel="me" type="text/html" href="http://twitter.com/davewasthere">   <link rel="me" type="text/html" href="http://facebook.com/davebeer"> 
+  <link rel="me" type="text/html" href="http://feeds.feedburner.com/DaveBeer"> 
+  <link rel="me" type="text/html" href="http://twitter.com/davewasthere"> 
+  <link rel="me" type="text/html" href="http://facebook.com/davebeer"> 
 
 </head>
 
