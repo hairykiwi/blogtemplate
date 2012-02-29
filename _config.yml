@@ -1,3 +1,2 @@
 permalink:  /posts/:title
 auto:       true
-exclude:	_drafts
