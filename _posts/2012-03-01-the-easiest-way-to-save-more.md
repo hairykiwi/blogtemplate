@@ -2,9 +2,7 @@
 layout: post
 title: The easiest way to save more
 ---
-I just watched a very interesting video from TEDTalks about Behavioural Finance.
-
-<iframe width="560" height="315" src="http://www.youtube.com/embed/gzcw_02ZB1o" frameborder="0" allowfullscreen></iframe>
+I just watched a [very interesting video from TEDTalks about Behavioural Finance](http://www.youtube.com/embed/gzcw_02ZB1o).
 
 The key concept I took away from this is how easy it'd be to save more money without feeling like you're saving. Every time you get a pay rise, save half of it. That way, you never actually have to try and spend less, you're just not letting yourself get used to spending your entire pay raise.
 
