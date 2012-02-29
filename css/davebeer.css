@@ -74,7 +74,7 @@ header {float: left; display: none;}
 .related ul {list-style-type: none; margin: 0; padding: 0;}
 .related ul li span {float:right;}
 blockquote {font-style: italic; color: #666;}
-.nextprev {margin-bottom: 1em;}
+.nextprev {}
 .nextprev .next {float: right; text-align: right;}
 .nextprev .prev {float: left;}
 .clearall {clear: both;}
