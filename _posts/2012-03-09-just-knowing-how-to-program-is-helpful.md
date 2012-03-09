@@ -14,8 +14,6 @@ Which got me thinking how powerful it is knowing how to program, if you're doing
 
 Then just yesterday, I read the following after seeing a link on <a href="http://news.ycombinator.com/" rel="nofollow">Hacker News</a> which seemed apropos.
 
-> Programming as a profession is only moderately interesting. It can be a good job, but you could make about the same money and be happier running a fast food joint. You're much better off using code as your secret weapon in another profession.
-
-From <a href="http://learnpythonthehardway.org/book/advice.html" rel="nofollow">Learn python the hard way: Advice from an old programmer</a>
+> Programming as a profession is only moderately interesting. It can be a good job, but you could make about the same money and be happier running a fast food joint. You're much better off using code as your secret weapon in another profession. -- From <a href="http://learnpythonthehardway.org/book/advice.html" rel="nofollow">Learn python the hard way: Advice from an old programmer</a>
 
 I like the idea of that. Carrying through the skills I have into another profession. Only question is... which profession?
