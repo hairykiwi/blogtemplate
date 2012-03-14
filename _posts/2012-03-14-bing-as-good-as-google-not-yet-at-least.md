@@ -10,5 +10,5 @@ Bing either is very slow at crawling, or it's update rate is incredibly slow. So
 
 Now it's just a matter of waiting. Four hours later the sitemap is still listed as pending. So I guess I just have to be patient. There isn't much else I can do for the next day or two at least.
 
-But this does make me wonder if more people are using Bing, but it's poor organic search rating is mostly down to it's indexing? I'm not sure, but on the few sites I've been doing SEO/SEM work on, the older more established sites are still well indexed by Bing. It's just the new (< 6 months) sites that have a poor showing. Google's Caffiene still kicks arse as far as freshness goes.
+This does make me wonder if more people are using Bing, but its poor organic search rating is mostly down to its indexing? I'm not sure, but on the few sites I've been doing SEO/SEM work on, the older more established sites are still well indexed by Bing. It's just the new (< 6 months) sites that have a poor showing. Google's Caffiene still kicks arse as far as freshness goes.
 
