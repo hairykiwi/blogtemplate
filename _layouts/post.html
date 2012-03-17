@@ -11,11 +11,11 @@ layout: layout
 
 
         <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-        <g:plusone size="medium" annotation="none" href="{{ page.url | prepend:'http://davebeer.com' }}"></g:plusone>
+        <g:plusone size="medium" annotation="none" href="{{ page.url | prepend:'http://davebeer.com' | append:'/' }}"></g:plusone>
 
-        <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ page.url | prepend:'http://davebeer.com' }}" data-count="none">Tweet</a><script type="text/javascript">!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ page.url | prepend:'http://davebeer.com' | append:'/' }}" data-count="none">Tweet</a><script type="text/javascript">!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = "//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); } } (document, "script", "twitter-wjs");</script>
 
-        <iframe src="//www.facebook.com/plugins/like.php?href={{ page.url | prepend:'http://davebeer.com' | cgi_escape }}&amp;send=false&amp;layout=button_count&amp;width=75&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:75px; height:21px;" allowTransparency="true"></iframe>
+        <iframe src="//www.facebook.com/plugins/like.php?href={{ page.url | prepend:'http://davebeer.com' | append:'/' | cgi_escape }}&amp;send=false&amp;layout=button_count&amp;width=75&amp;show_faces=false&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:75px; height:21px;" allowTransparency="true"></iframe>
 
         <div class="nextprev">
 
